@@ -47,9 +47,13 @@ EPS_FINAL = 0           # final value for epsilon after decay
 
 ### Actor-Critic Method
 
-The DDPG algorithm uses a **Actor-Critic Method**. In detail, the replay buffer takes a series of experiences to update the weights of the critical model. In turn, the critical model will use this information to predict the actions of subsequent states given by the actor's model. In this way, by applying the Bellman equation the target values ​​are calculated, after having calculated the loss the model itself is updated trying to minimize it. In the meantime, the actor's model uses the output of the critical model to calculate its Q values ​​and current states to predict actions. Both models outputs are used to update the models. As mentioned in the paper linked above, the agent is given an Ornstein-Uhlenbeck trial in order to balance the continuous exploitation of space, Consequently to this process there is the addition of noise based on the parameters entered.
+**First let's talk about DDPG Actor-Critic Method.**
 
-Traditional actor-critic methods have a separate critic for each agent, instead this method utilizes a single critic that receives as input the actions and state observations from all agents, making the training simpler and allowing centralized training with decentralized execution.
+The DDPG algorithm uses a **Actor-Critic Method**. In detail, the replay buffer takes a series of experiences to update the weights of the critical model. In turn, the critical model will use this information to predict the actions of subsequent states given by the actor's model. In this way, by applying the Bellman equation the target values ​​are calculated, after having calculated the loss the model itself is updated trying to minimize it. In the meantime, the actor's model uses the output of the critical model to calculate its Q values ​​and current states to predict actions. Both models outputs are used to update the models. As mentioned in the paper linked above, the agent is given an Ornstein-Uhlenbeck trial in order to balance the continuous exploitation of space. Consequently to this process there is the addition of noise based on the parameters entered.
+
+**MADDPG**
+
+Traditional actor-critic methods have a separate critic for each agent, instead **MADDPG** utilizes a single critic that receives as input the actions and state observations from all agents, making the training simpler and allowing centralized training with decentralized execution.
 
 
 ```
