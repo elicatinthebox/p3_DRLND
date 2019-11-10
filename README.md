@@ -22,8 +22,11 @@ The environment is considered solved, when the average (over 100 episodes) of th
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
 
 Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip 
+
 Mac OSX: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip 
-Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip 
+
+Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip
+
 Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip 
 
 (For AWS) If you'd like to train the agent on AWS (and have not enabled a virtual screen), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux_NoVis.zip) to obtain the "headless" version of the environment
@@ -38,5 +41,5 @@ Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Ten
 
 ### Instructions
 
-To know more about how I've devloped the project please take a look at the [REPORT.md](https://github.com/elisaromondia/p3_DRLND/blob/master/REPORT.md) document and run the code provided in the [Continuous_Control.ipynb](https://github.com/elisaromondia/p2_continuous-control/blob/master/Continuous_Control.ipynb) Jupyter Notebook.
+To know more about how I've devloped the project please take a look at the [REPORT.md](https://github.com/elisaromondia/p3_DRLND/blob/master/REPORT.md) document and run the code provided in the [Tennis.ipynb](https://github.com/elisaromondia/p3_DRLND/blob/master/Tennis.ipynb) Jupyter Notebook.
 
