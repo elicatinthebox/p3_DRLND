@@ -42,9 +42,5 @@ This yields a single score for each episode.
 5. Run the cells inside the Jupyter Notebook named `Tennis.ipynb`
 
 
-
-
-### Instructions
-
 To know more about how I've devloped the project please take a look at the [REPORT.md](https://github.com/elisaromondia/p3_DRLND/blob/master/REPORT.md) document and run the code provided in the [Tennis.ipynb](https://github.com/elisaromondia/p3_DRLND/blob/master/Tennis.ipynb) Jupyter Notebook.
 
